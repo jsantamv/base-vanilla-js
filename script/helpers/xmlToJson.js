@@ -47,9 +47,10 @@ function xmlToJson(xml) {
 }
 
 // Función para leer el archivo XML y convertirlo a JSON
-async function fetchAndConvertXMLtoJSON() {
+async function fetchAndConvertXMLtoJSON(path) {
     try {
-        const response = await fetch('patito.xml'); // Asegúrate de que la ruta sea correcta
+        // const response = await fetch('patito.xml'); // Asegúrate de que la ruta sea correcta
+        const response = await fetch(path); // Asegúrate de que la ruta sea correcta
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -57,11 +58,19 @@ async function fetchAndConvertXMLtoJSON() {
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
         const json = xmlToJson(xmlDoc);
-        console.log(json);
+        
+        return json;
     } catch (error) {
         console.error('Error fetching or parsing XML:', error);
     }
 }
 
-// Llamar a la función para leer y convertir el XML
-fetchAndConvertXMLtoJSON();
+async function setJson() {
+    const jsonData = await fetchAndConvertXMLtoJSON('data/persona.xml');
+
+    await createTableFromJSON(jsonData) 
+
+    console.log(data);
+}
+
+setJson();
