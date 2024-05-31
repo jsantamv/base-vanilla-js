@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./styles/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <title>Test de Js</title>
+  </head>
+  <body>
+    <h1>Algun Texto!!!</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos obcaecati
+      voluptatibus dolorem rem labore consequatur repudiandae nesciunt cumque
+      cupiditate esse? Neque aspernatur culpa quasi deserunt, voluptatem saepe
+      eum? Ipsa, laborum.
+    </p>
+
+    <a class="fetchSize" href="data/persona1.xml">persona1.xml</a>
+    <a class="fetchSize" href="data/persona2.xml">persona2.xml</a>
+    <a class="fetchSize" href="data/persona3.xml">persona3.xml</a>
+    <a class="fetchSize" href="index.html">persona3.xml</a>
+    <a class="fetchSize" href="package.json">persona3.xml</a>
+    <a class="fetchSize" href="data/persona3.xml">persona3.xml</a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      $("a.fetchSize").each(function () {
+        var link = this;
+
+        $.ajax({
+          type: "HEAD",
+          url: link.href,
+          complete: function (xhr) {
+            //append a los links
+            var fileSize = xhr.getResponseHeader("Content-Length");
+            fileSize = humanizar(fileSize);
+            $(link).append(` (${fileSize}) `);
+          },
+        });
+      });
+
+      function humanizar(size) {
+        const unidades = ["bytes", "KB", "MB", "GB", "TB"];
+
+        var ord = Math.floor(Math.log(size) / unidades.length - 1);
+
+        var s = Math.round((size / Math.pow(1024, ord)) * 100) / 100;
+
+        return `${s} ${unidades[0]}`;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+[
+    {
+      "nombre": "Sheldon Cooper",
+      "jerarquia": "Fisico Teorico"
+    },
+    {
+      "nombre": "Leonard Hofstadter",
+      "jerarquia": "Fisico Experimental"
+    },
+    {
+      "nombre": "Penny",
+      "jerarquia": "Actriz"
+    },
+    {
+      "nombre": "Raj Koothrappali",
+      "jerarquia": "Astrofisico"
+    },
+    {
+      "nombre": "Howard Wolowitz",
+      "jerarquia": "Ingeniero Aeroespacial"
+    },
+    {
+      "nombre": "Amy Farrah Fowler",
+      "jerarquia": "Neurocientifica"
+    },
+    {
+      "nombre": "Bernadette Rostenkowski",
+      "jerarquia": "Microbiologa"
+    },
+    {
+      "nombre": "Stuart Bloom",
+      "jerarquia": "Dueño de la tienda de cómics"
+    },
+    {
+      "nombre": "Wil Wheaton",
+      "jerarquia": "Actor"
+    },
+    {
+      "nombre": "Annaleigh Haim",
+      "jerarquia": "Cantante y compositora"
+    },
+    {
+      "nombre": "Mayim Bialik",
+      "jerarquia": "Neurocientifica y actriz"
+    },
+    {
+      "nombre": "Kevin Sussman",
+      "jerarquia": "Actor"
+    },
+    {
+      "nombre": "Barry Kripke",
+      "jerarquia": "Fisico Teorico"
+    },
+    {
+      "nombre": "Leslie Winkle",
+      "jerarquia": "Abogada"
+    }
+  ]

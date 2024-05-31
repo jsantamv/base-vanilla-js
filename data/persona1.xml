@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+        <isbn>978-0132350884</isbn>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <author>David Thomas</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201616224</isbn>
+    </book>
+    <book>
+        <title>Code Complete</title>
+        <author>Steve McConnell</author>
+        <year>2004</year>
+        <publisher>Microsoft Press</publisher>
+        <isbn>978-0735619678</isbn>
+    </book>
+    <book>
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <author>John Vlissides</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201633610</isbn>
+    </book>
+    <book>
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <publisher>Addison-Wesley Professional</publisher>
+        <isbn>978-0201485677</isbn>
+    </book>
+</library>
