@@ -7,58 +7,73 @@
   </head>
   <body>
     <script>
-        
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition, showError);
-            } else {
-                console.log("Geolocalización no es soportada por este navegador.");
-            }
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else {
+          console.log("Geolocalización no es soportada por este navegador.");
         }
-        
-        function showPosition(position) {
-            const lat = position.coords.latitude;
-            const long = position.coords.longitude;
-            console.log("Latitud: " + lat + ", Longitud: " + long);
-            // Aquí puedes hacer una llamada a tu API con lat y long
+      }
+
+      function showPosition(position) {
+        const lat = position.coords.latitude;
+        const long = position.coords.longitude;
+        console.log("Latitud: " + lat + ", Longitud: " + long);
+        // Aquí puedes hacer una llamada a tu API con lat y long
+      }
+
+      function showError(error) {
+        switch (error.code) {
+          case error.PERMISSION_DENIED:
+            console.log("El usuario negó la solicitud de geolocalización.");
+            break;
+          case error.POSITION_UNAVAILABLE:
+            console.log("La información de la ubicación no está disponible.");
+            break;
+          case error.TIMEOUT:
+            console.log("La solicitud para obtener la ubicación ha caducado.");
+            break;
+          case error.UNKNOWN_ERROR:
+            console.log("Se ha producido un error desconocido.");
+            break;
         }
-        
-        function showError(error) {
-            switch (error.code) {
-                case error.PERMISSION_DENIED:
-                    console.log("El usuario negó la solicitud de geolocalización.");
-                    break;
-                    case error.POSITION_UNAVAILABLE:
-                        console.log("La información de la ubicación no está disponible.");
-                        break;
-                        case error.TIMEOUT:
-                            console.log("La solicitud para obtener la ubicación ha caducado.");
-                            break;
-                            case error.UNKNOWN_ERROR:
-                                console.log("Se ha producido un error desconocido.");
-                                break;
-                            }
-                        }
-                        
-                        // Llama a la función para obtener la ubicación
-                        getLocation();
-                        
-                        // Latitud: 9.9280694, Longitud: -84.0907246
-                        //44ca4828281dc861bf3b38d3e189dbbb
-                        const apiKey = "44ca4828281dc861bf3b38d3e189dbbb"; // Reemplaza con tu API key de OpenWeatherMap
-                        const lat = "9.9280694"; // Reemplaza con tu latitud
-                        const lon = "-84.0907246"; // Reemplaza con tu longitud
-                        
-                        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
-                        
-                        fetch(url)
-                        .then((response) => response.json())
-                        .then((data) => {
-                            console.log(data);
-                            // Aquí puedes manejar la respuesta de la API
-                        })
-                        .catch((error) => console.log("Error:", error));
-                        </script>
+      }
+
+      function kelvinToCelsius(kelvin) {
+        console.log(kelvin - 273.15)
+        //return kelvin - 273.15;
+      }
+
+      function kelvinToFahrenheit(kelvin) {
+        const r = ((kelvin - 273.15) * 9) / 5 + 32;
+        console.log(r);
+        //return ((kelvin - 273.15) * 9) / 5 + 32;
+      }
+
+      // Llama a la función para obtener la ubicación
+      getLocation();
+
+      // Latitud: 9.9280694, Longitud: -84.0907246
+      //44ca4828281dc861bf3b38d3e189dbbb
+      const apiKey = "44ca4828281dc861bf3b38d3e189dbbb"; // Reemplaza con tu API key de OpenWeatherMap
+      const lat = "10.353050"; // Reemplaza con tu latitud
+      const lon = "-84.837891"; // Reemplaza con tu longitud
+
+
+
+
+      const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+
+          kelvinToCelsius(data.main.temp)
+          kelvinToFahrenheit(data.main.temp)          
+          // Aquí puedes manejar la respuesta de la API
+        })
+        .catch((error) => console.log("Error:", error));
+    </script>
   </body>
-  </html>
-  
+</html>
